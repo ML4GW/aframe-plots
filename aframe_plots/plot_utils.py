@@ -19,6 +19,10 @@ def get_figure(**kwargs):
 
     if not kwargs.get("tools"):
         p.toolbar_location = None
+
+    title = kwargs.get("title")
+    if title and title.startswith("$$"):
+        p.title.text_font_style = "normal"
     return p
 
 
