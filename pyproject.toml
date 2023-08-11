@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aframe-plots"
+version = "0.0.1"
+description = "Plotting code for aframe paper"
+authors = ["Alec Gunny <alecg@mit.edu>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+jupyter = "^1.0"
+bokeh = "^3.2"
+h5py = "^3.9"
+pandas = "^2.0"
+gwpy = "^3.0"
+scipy = "^1.10"
+inspiral_range = "^0.9"
+rise = "^5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
